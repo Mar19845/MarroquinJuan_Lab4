@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Target : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class Target : MonoBehaviour
         health -= amount;
         if(health<= 0)
         {
+            Contador.score += 50;
             Morir();
         }
     }
