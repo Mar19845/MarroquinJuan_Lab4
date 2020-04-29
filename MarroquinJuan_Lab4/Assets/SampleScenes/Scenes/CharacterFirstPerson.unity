@@ -1845,7 +1845,7 @@ GameObject:
   - component: {fileID: 1403605134}
   - component: {fileID: 1403605136}
   m_Layer: 5
-  m_Name: Score
+  m_Name: Scores
   m_TagString: ScoreText
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2000,7 +2000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa0b4ec52f74fa4f95f7910385274c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1403605132}
   score: {fileID: 0}
 --- !u!1 &1410602909
 GameObject:
@@ -2307,7 +2306,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fa0b4ec52f74fa4f95f7910385274c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 1403605132}
   score: {fileID: 0}
 --- !u!4 &1419722343
 Transform:
