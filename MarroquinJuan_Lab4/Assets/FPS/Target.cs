@@ -22,12 +22,12 @@ public class Target : MonoBehaviour
         health -= amount;
         if(health<= 0)
         {
-            Contador.score += 50;
             Morir();
         }
     }
     void Morir()
     {
         Destroy(gameObject);
+        Contador.scoreval += 10;
     }
 }
